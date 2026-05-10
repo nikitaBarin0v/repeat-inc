@@ -1,6 +1,8 @@
-const apiKey = '123cd0f2-f34c-472b-afa3-ecd60725a697'
-const headers = {
-  'api-key': apiKey
+const apiKey = import.meta.env.VITE_API_KEY
+const headers: HeadersInit = {};
+
+if (apiKey) {
+  headers['api-key'] = apiKey;
 }
 
 export const getTrack = (trackId: string) => {
