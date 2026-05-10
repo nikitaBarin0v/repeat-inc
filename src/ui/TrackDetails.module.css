@@ -1,0 +1,13 @@
+.track {
+  border: 1px solid darkred;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 10px;
+}
+
+.track h2 {
+  color: #646cff;
+}
